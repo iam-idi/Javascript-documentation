@@ -1,0 +1,104 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
+html, body {
+  font-family: lato, montserrat, arial;
+  line-height: 1.5;
+  color: #4d4e53;
+  font-size: 0.96em;
+  display: block;
+}
+code{
+  display: block;
+  padding: 7px 0 7px 25px;
+  background-color: #dfdfdf;
+  border-radius: 8px;
+  margin: 10px auto;
+  width: 80%;
+  word-break: normal;
+  font-family: monospace;
+  line-height: 2;
+}
+
+header {
+  font-weight: bold;
+  font-size: 1.8em;
+  color: #3f3f3f;
+}
+
+main{
+  display: inline-block;
+  margin-left: 3px;
+  position: absolute;
+  top: 0;
+  left: 26%;
+  padding: 20px;
+
+}
+
+nav{
+  width: 25%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-right: 8px solid #5e5e5e;
+  display: flex;
+  flex-direction: column;
+  background-color: #444444;
+}
+
+#navlinks{
+  overflow-x: hidden;
+  padding-top: 174px;
+  
+}
+
+.nav-link {
+  display: block;
+  text-decoration: none;
+  background-color: #555;
+  color: #fff;
+  padding: 15px 0;
+  border: none;
+  border-top: 2px solid #fff;
+  text-align: center;
+  word-wrap: break-word;
+
+}
+
+nav header {
+  text-align: center;
+  background-color: #00000013;
+  backdrop-filter: blur(5px);
+  color: #fff;
+  height: 6.5em;
+  width: 25%;
+  overflow: hidden;
+  position: fixed;
+  top:0;
+  left:0;
+
+}
+
+.jslogo{
+  background-color: transparent;
+  border: 10px solid #ffe600;
+  height: 2em;
+  width: 40%;
+  display: flex;
+  font-size: 1.5em;
+  font-weight: 800;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.nav-link:hover{
+  color: #4d4e53;
+  background-color:#fff;
+}
+
